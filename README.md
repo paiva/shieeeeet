@@ -2,4 +2,4 @@
 
 Press button in shitty life situations. Built just before the NFL Super Bowl XLIX
 
-[a link](https://shieeeeet.com)
+[shieeeeet.com](https://shieeeeet.com)
