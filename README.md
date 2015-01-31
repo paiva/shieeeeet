@@ -1,5 +1,3 @@
 # Shieeeeet.com
 
-Press button in shitty life situations. Built just before the NFL Super Bowl XLIX
-
-[shieeeeet.com](https://shieeeeet.com)
+Press button in shitty life situations. Built just before the NFL Super Bowl XLIX.
