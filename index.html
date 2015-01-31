@@ -66,7 +66,7 @@
 
         <div class="span7 text-center" style="margin-top: 50px;">
           <button id="button" type="button" class="btn btn-lg btn-danger"
-           style="width: 200px; height: 200px; border-radius: 80px;font-size: -webkit-xxx-large; outline: none;"><b>Press!</b></button>
+           style="width: 200px; height: 200px; border-radius: 80px;font-size: -webkit-xxx-large; outline: none;" onclick=”javascript:pageTracker._trackPageview ('button click');”><b>Press!</b></button>
           <audio id="shieeeeet">
           <source src="static/media/audio.mp3" type="audio/mpeg" />
           <script type="text/javascript">
@@ -77,11 +77,21 @@
         </div>
       </div>
     </div>
-    <div class="text-center"> 
+    <div class="text-center">
      <div class="fb-like" data-href="https://www.facebook.com/shietbutton" data-layout="box_count" data-action="like" data-show-faces="true" data-share="false" style="vertical-align:top;zoom:1;display: inline-block;"></div>
-     
+
      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://shieeeeet.com/" data-text="Press in shitty situations ->" data-count="vertical" style="vertical-align:top;zoom:1; display: inline-block;">Tweet</a>
       <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-    </div>      
+    </div>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-59190319-1', 'auto');
+    ga('send', 'pageview');
+
+    </script>
   </body>
 </html>
