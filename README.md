@@ -1,10 +1,5 @@
-# shieeeeet.com
+# Shieeeeet.com
 
-Press button in shitty situations. 
+Press button in shitty life situations. Built just before the NFL Super Bowl XLIX
 
-## Todo
-
-* Functionality for Facebook button
-* Functionality for Twitter button
-* Map DNS with shieeeeet.com
-* Setup DB for click count
+[a link](https://shieeeeet.com)
