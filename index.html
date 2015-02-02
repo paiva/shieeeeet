@@ -66,12 +66,18 @@
 
         <div class="span7 text-center" style="margin-top: 50px;">
           <button id="button" type="button" class="btn btn-lg btn-danger"
-           style="width: 200px; height: 200px; border-radius: 80px;font-size: -webkit-xxx-large; outline: none;" onClick="_gaq.push(['_trackEvent', 'button', 'click', 'shieeeeet']);"><b>Press!</b></button>
+           style="width: 200px; height: 200px; border-radius: 80px;font-size: -webkit-xxx-large; outline: none;" onClick="_gaq.push(['_trackEvent', 'button', 'click', 'shieee']);"><b>Press!</b></button>
           <audio id="shieeeeet">
           <source src="static/media/audio.mp3" type="audio/mpeg" />
           <script type="text/javascript">
             document.getElementById('button').onclick = function(){
             document.getElementById('shieeeeet').play();
+
+            var buttonclick = document.getElementById('button');
+            addListener(buttonclick, 'click', function() {
+              ga('send', 'event', 'button', 'click');
+            });
+            };
           </script>
         </div>
       </div>
